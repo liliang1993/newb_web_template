@@ -1,0 +1,53 @@
+.que_wrap{
+    .que_wrap_hd{
+          .que_type{
+              width: 264px;
+              margin:auto;
+              .que_type_ul{
+                  .que_type_li{
+                      width: 124px;
+                      height: 36px;
+                      background-color: #c9c9c9;
+                      &.current{
+                          background-color: #1e2432;
+                      }
+                      a{
+                        display: block;
+                        height: 36px;
+                        line-height: 36px;
+                      }
+                  }
+              }
+          }
+    }
+    .que_wrap_con{
+       border-top:1px solid #d6d6d6;
+       padding-bottom: 20px;
+        .que_con_ul{
+            li{
+              padding:20px 0;
+              &+li{
+                  border-top: 1px dotted #ccc; 
+              }
+               p{ 
+                  position: relative;
+                  padding-left: 40px;
+                  line-height: 24px; 
+                  i{
+                    position: absolute;
+                    height: 24px;
+                    width: 24px;
+                    left: 0;
+                    top:0;
+                     &.icon_que{
+                        background-position:0  -208px;
+                     }
+                     &.icon_ans{
+                        background-position:-24px  -208px;
+                     }
+                  }
+               }
+            }
+        }
+    }
+}

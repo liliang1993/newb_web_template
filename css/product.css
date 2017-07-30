@@ -1,0 +1,119 @@
+.header h2 {
+  width: 223px;
+  height: 90px;
+}
+.header h2 a {
+  top: 50%;
+  transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  /* IE 9 */
+  -moz-transform: translate(0, -50%);
+  /* Firefox */
+  -webkit-transform: translate(0, -50%);
+  /* Safari 和 Chrome */
+  -o-transform: translate(0, -50%);
+}
+.header h2 a.icon_logo {
+  background-position: 0 0;
+}
+.header .header_r {
+  height: 90px;
+}
+.header .header_r .nav_menu .nav_menu_item {
+  width: 89px;
+  border-left: 1px solid #ddd;
+  border-bottom: 2px solid transparent;
+  height: 88px;
+  line-height: 88px;
+  float: left;
+  text-align: center;
+}
+.header .header_r .nav_menu .nav_menu_item .nav_link {
+  display: block;
+  height: 90px;
+  color: #666;
+}
+.header .header_r .shortcut {
+  height: 65px;
+  padding-top: 25px;
+  border-left: 1px solid #ddd;
+}
+.header .header_r .shortcut .shortcut_item {
+  padding-left: 24px;
+  float: left;
+}
+.header .header_r .shortcut .shortcut_item i {
+  margin: auto;
+  margin-bottom: 5px;
+}
+.header .header_r .shortcut .shortcut_item i.icon_real {
+  width: 28px;
+  height: 28px;
+  background-position: 0 -65px;
+}
+.header .header_r .shortcut .shortcut_item i.icon_login {
+  width: 23px;
+  height: 28px;
+  background-position: 0 -115px;
+}
+.header .header_r .shortcut .shortcut_item i.icon_support {
+  width: 33px;
+  height: 28px;
+  background-position: 0 -160px;
+}
+.banner {
+  height: 392px;
+  overflow: hidden;
+  min-width: 1920px;
+}
+.sub_menu {
+  background-color: #1e2432;
+  height: 70px;
+}
+.sub_menu .submenu_ul li {
+  width: 218px;
+  float: left;
+}
+.sub_menu .submenu_ul li .submenu_con {
+  display: block;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background-color: #262d3f;
+}
+.sub_menu .submenu_ul li .submenu_con.current {
+  background-color: #e7c436;
+}
+.pro_list_wrap .pro_list_ul li .pro_con .pro_con_h {
+  padding: 14px 0;
+  line-height: 20px;
+}
+.pro_list_wrap .pro_list_ul li .pro_con .pro_con_b .left_box {
+  height: 207px;
+  width: 215px;
+  overflow: hidden;
+}
+.pro_list_wrap .pro_list_ul li .pro_con .pro_con_b .right_box {
+  margin-left: 21px;
+  height: 207px;
+}
+.pro_list_wrap .pro_list_ul li .pro_con .pro_con_b .right_box ul li {
+  color: #666;
+  line-height: 30px;
+  height: 30px;
+}
+.pro_list_wrap .pro_list_ul li .pro_con .pro_con_b .right_box ul li .icon_pro {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-right: 5px;
+  height: 11px;
+  width: 12px;
+  background: url(../images/pro_right_icon.png) no-repeat;
+}
+.pro_list_wrap .pro_list_ul li .pro_con .pro_con_b .right_box ul li + li {
+  margin-top: 6px;
+}
+.pro_list_wrap .pro_list_ul li + li {
+  margin-top: 30px;
+}

@@ -1,0 +1,62 @@
+.new_list_wrap .new_list_ul li {
+  border-top: 1px solid #e9e8e8;
+  border-bottom: 1px solid  #e9e8e8;
+  height: 135px;
+  margin-bottom: 30px;
+}
+.new_list_wrap .new_list_ul li .list_left_box {
+  width: 66px;
+  height: 133px;
+}
+.new_list_wrap .new_list_ul li .list_left_box .leftbox_hd {
+  height: 66px;
+  line-height: 66px;
+  background-color: #353942;
+}
+.new_list_wrap .new_list_ul li .list_left_box .leftbox_bd {
+  height: 57px;
+  background-color: #fed735;
+  color: #353942;
+  padding-top: 10px;
+}
+.new_list_wrap .new_list_ul li .list_left_box .leftbox_bd em {
+  line-height: 30px;
+}
+.new_list_wrap .new_list_ul li .list_middle_box {
+  height: 133px;
+  width: 940px;
+  padding-left: 19px;
+}
+.new_list_wrap .new_list_ul li .list_middle_box .text_title {
+  padding-top: 5px;
+  font-size: 18px;
+  line-height: 40px;
+  height: 40px;
+  color: #3c4049;
+}
+.new_list_wrap .new_list_ul li .list_middle_box .tetx_con {
+  height: 48px;
+  overflow: hidden;
+}
+.new_list_wrap .new_list_ul li .list_middle_box .text_goto {
+  line-height: 36px;
+  height: 36px;
+}
+.new_list_wrap .new_list_ul li .list_middle_box .text_goto a {
+  color: #0fa000;
+}
+.new_list_wrap .new_list_ul li .list_right_box {
+  height: 135px;
+  width: 135px;
+  background: #e3c84d;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+}
+.new_list_wrap .new_list_ul li .list_right_box .icon_add {
+  display: block;
+  height: 58px;
+  width: 58px;
+  background-position: 0 -323px;
+}
