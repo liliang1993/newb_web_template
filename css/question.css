@@ -25,21 +25,16 @@
 .que_wrap .que_wrap_con .que_con_ul li + li {
   border-top: 1px dotted #ccc;
 }
-.que_wrap .que_wrap_con .que_con_ul li p {
-  position: relative;
-  padding-left: 40px;
-  line-height: 24px;
-}
-.que_wrap .que_wrap_con .que_con_ul li p i {
+.que_wrap .que_wrap_con .que_con_ul li i {
   position: absolute;
   height: 24px;
   width: 24px;
   left: 0;
   top: 0;
 }
-.que_wrap .que_wrap_con .que_con_ul li p i.icon_que {
+.que_wrap .que_wrap_con .que_con_ul li i.icon_que {
   background-position: 0 -208px;
 }
-.que_wrap .que_wrap_con .que_con_ul li p i.icon_ans {
+.que_wrap .que_wrap_con .que_con_ul li i.icon_ans {
   background-position: -24px -208px;
 }
