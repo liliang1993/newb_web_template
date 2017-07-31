@@ -1,11 +1,10 @@
-.save_guid_wrap .save_guid_ul .save_guid_li + li {
+.guid_ul .guid_li + li {
   margin-top: 20px;
 }
-.save_guid_wrap .save_guid_ul .save_guid_li .guid_text {
+.guid_ul .guid_li .guid_text {
   line-height: 14px;
   height: 14px;
 }
-.save_guid_wrap .save_guid_ul .save_guid_li .guid_img img {
-  width: 820px;
-  height: 336px;
+.guid_ul .guid_li .guid_img img {
+  display: block;
 }

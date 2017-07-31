@@ -1,9 +1,8 @@
-.download_wrap .pc_dl_box .pc_dl_box_hd h2 {
-  background: url(../images/title03.gif) no-repeat;
+.m_title_box h2 {
   height: 42px;
   text-indent: 9999em;
 }
-.download_wrap .pc_dl_box .pc_dl_box_hd .box_hd_txt {
+.m_title_box .box_hd_txt {
   line-height: 34px;
   height: 34px;
   margin-bottom: 30px;
@@ -37,16 +36,6 @@
   width: 35px;
   height: 31px;
   background-position: 0 -362px;
-}
-.download_wrap .moblie_dl_box .moblie_dl_box_hd h2 {
-  background: url(../images/title04.gif) no-repeat;
-  height: 42px;
-  text-indent: 9999em;
-}
-.download_wrap .moblie_dl_box .moblie_dl_box_hd .box_hd_txt {
-  line-height: 34px;
-  height: 34px;
-  margin-bottom: 20px;
 }
 .download_wrap .moblie_dl_box .moblie_dl_box_md {
   height: 432px;

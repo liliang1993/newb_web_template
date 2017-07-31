@@ -1,22 +1,24 @@
-.que_wrap .que_wrap_hd .que_type {
+.subfield_box {
+  border-bottom: 1px solid #d6d6d6;
+}
+.subfield_box .subfield_con {
   width: 264px;
   margin: auto;
 }
-.que_wrap .que_wrap_hd .que_type .que_type_ul .que_type_li {
+.subfield_box .subfield_con .subfield_ul .subfield_li {
   width: 124px;
   height: 36px;
   background-color: #c9c9c9;
 }
-.que_wrap .que_wrap_hd .que_type .que_type_ul .que_type_li.current {
+.subfield_box .subfield_con .subfield_ul .subfield_li.current {
   background-color: #1e2432;
 }
-.que_wrap .que_wrap_hd .que_type .que_type_ul .que_type_li a {
+.subfield_box .subfield_con .subfield_ul .subfield_li a {
   display: block;
   height: 36px;
   line-height: 36px;
 }
 .que_wrap .que_wrap_con {
-  border-top: 1px solid #d6d6d6;
   padding-bottom: 20px;
 }
 .que_wrap .que_wrap_con .que_con_ul li {
