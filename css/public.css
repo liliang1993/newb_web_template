@@ -3,7 +3,7 @@
 /* ---------------------CSS Reset----------------------- */
 body{line-height:1.4;color:#fff;font-family:"微软雅黑";font-size: 14px;}
 input,textarea,select{font-family:inherit;font-size:100%;}
-input{padding:0;}
+input{padding:0;border:0px;outline:0;}
 body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dt,dd,li,form{ margin:0;}
 h4,h5,h6{font-size:12px;}
 ul,ol,dl,li{padding-left:0; list-style-type:none;}
@@ -31,9 +31,9 @@ a{ text-decoration:none;color: #fff}
 /* percent width value */
 .w{width:100%;}
 /* line-height */
-.lh45{line-height: 45px;}.lh24{line-height: 24px;}.lh38{line-height: 38px;}.lh18{line-height: 18px;}.lh40{line-height: 40px;}.lh22{line-height: 22px;}
+.lh45{line-height: 45px;}.lh24{line-height: 24px;}.lh38{line-height: 38px;}.lh18{line-height: 18px;}.lh28{line-height: 28px;}.lh40{line-height: 40px;}.lh22{line-height: 22px;}
 /* margin */
-.mt4{margin-top: 4px;}.mr15{margin-right: 15px;}.mt10{ margin-top:10px;}.mr10{ margin-right:10px;}.ml20{ margin-left:20px;}.mt22{ margin-top:22px;}.mt15{ margin-top:15px;}.mt30{ margin-top:30px;}.mt20{margin-top: 20px;}.mr20{ margin-right:20px;}.ml3{ margin-left:3px;}.mr3{ margin-right:3px;}.ml5{ margin-left:5px;}.ml30{ margin-left:30px;}.mr8{ margin-right:8px;}.mr5{ margin-right:5px;}.ml10{ margin-left:10px;}.mt15{ margin-top:15px;}.mb30{ margin-bottom:30px;}.mt5{ margin-top:5px;}.ml15{ margin-left:15px;}.mt3{margin-top: 3px;}.mb20{ margin-bottom:20px;}.mt23{margin-top: 23px;}.mb12{margin-bottom: 12px;}.mb15{margin-bottom: 15px;}.ml18{margin-left: 18px;}.mt14{margin-top: 14px;}.mb24{margin-bottom: 24px;}.mt24{margin-top: 24px;}
+.mt4{margin-top: 4px;}.mr15{margin-right: 15px;}.mt10{ margin-top:10px;}.mr10{ margin-right:10px;}.ml20{ margin-left:20px;}.mt22{ margin-top:22px;}.mt15{ margin-top:15px;}.mt30{ margin-top:30px;}.mt20{margin-top: 20px;}.mr20{ margin-right:20px;}.ml3{ margin-left:3px;}.mr3{ margin-right:3px;}.ml5{ margin-left:5px;}.ml30{ margin-left:30px;}.mr8{ margin-right:8px;}.mr5{ margin-right:5px;}.ml10{ margin-left:10px;}.mt15{ margin-top:15px;}.mb30{ margin-bottom:30px;}.mt5{ margin-top:5px;}.ml15{ margin-left:15px;}.mt3{margin-top: 3px;}.mb20{ margin-bottom:20px;}.mt23{margin-top: 23px;}.mb12{margin-bottom: 12px;}.mb15{margin-bottom: 15px;}.ml18{margin-left: 18px;}.mt10{margin-top: 10px;}.mt14{margin-top: 14px;}.mb24{margin-bottom: 24px;}.mt24{margin-top: 24px;}
 .mr12{margin-right: 12px;}.ml12{margin-left: 12px;}.mt40{margin-top: 40px;}
 /* margin negative */
 
@@ -44,11 +44,10 @@ a{ text-decoration:none;color: #fff}
 .bbe9c637{border-bottom: 1px solid #e9c637}
 .bcccccc{border:1px solid #ccc;}
 /* background-color name rule: bg - (key word/Hex color) |-> All colors are safe color */
-.bgwh{background-color:#fff;}.bge9c637{background-color:#e9c637;} .bge4c132{background-color: #e4c132;}.bg666f87{background-color: #666f87;}
+.bgwh{background-color:#fff;}.bge9c637{background-color:#e9c637;} .bge4c132{background-color: #e4c132;}.bg666f87{background-color: #666f87;}.bg9c9c9c{background-color: #9c9c9c;}.bg28c528{background-color: #28c528;}
 /* safe color */
 .g0{color:#000;}.g3{color:#333;}.g6{color:#666;}.g9{color:#999;}.gc{color:#ccc;}.wh{color:white;}.cd3aa6e{ color:#d3aa6e;}.cb88d4d{ color:#b88d4d;}.cff5256{ color:#ff5256;}.c2ba304{ color:#2ba304;}.cff0c0c{ color:#ff0c0c;}.cc19a73{ color:#c19a73;}.ccfa759{ color:#cfa759;}.cff0000{ color:#ff0000;}.ce1c06d{ color:#e1c06d;}.cce9a48{ color:#ce9a48;}.cd3a04d{ color:#d3a04d;}.c1e2432{color:#1e2432;}.c262d3f{color:#262d3f;}.cff6000{color:#ff6000;}.c959595{color:#959595;}.c009263{
-  color:#009263;
-}
+  color:#009263;}.c28c528{color:#28c528;}
 /* font-size */
 .f12{ font-size:12px;}.f14{font-size:14px;}.f16{font-size:16px;}.f18{font-size:18px;}.f20{font-size:20px;}.f24{font-size:24px;}.f28{ font-size:28px;}.f46{ font-size:46px;}.f30{font-size:30px;}
 /* font-family */
@@ -58,7 +57,7 @@ a{ text-decoration:none;color: #fff}
 /* text-align */
 .tc{text-align:center;}.tr{text-align:right;}.tl{text-align:left;}.tj{text-align:justify;}
 /* text-decoration */
-.tdl{text-decoration:underline;}.tdn,.tdn:hover,.tdn a:hover,a.tdl:hover{text-decoration:none;}
+.tdl{text-decoration:underline;}
 /* letter-spacing */
 .lt-1{letter-spacing:-1px;}.lt0{letter-spacing:0;}.lt1{letter-spacing:1px;}
 /* white-space */

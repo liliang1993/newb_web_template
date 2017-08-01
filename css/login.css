@@ -1,0 +1,62 @@
+.content {
+  width: 100%;
+  min-width: 1200px;
+  height: 1000px;
+  background: url(../images/loginBg.jpg) no-repeat center;
+}
+.content .login_box {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgba(73, 94, 118, 0.5);
+  width: 650px;
+  height: 556px;
+  margin: 0 auto;
+}
+.content .login_box .login_box_hd {
+  padding-top: 43px;
+}
+.content .login_box .login_box_hd .icon_logo {
+  width: 223px;
+  height: 36px;
+  background-position: 0 0;
+}
+.content .login_box form {
+  padding-top: 20px;
+  padding-left: 80px;
+}
+.content .login_box form .m_form_ul li {
+  margin-top: 7px;
+}
+.content .login_box form .m_form_ul li em {
+  line-height: 58px;
+  font-size: 18px;
+}
+.content .login_box form .m_form_ul li .login_text {
+  padding: 0 50px 0 20px;
+  width: 328px;
+  height: 36px;
+}
+.content .login_box form .m_form_ul li .login_code {
+  width: 247px;
+  padding-right: 0;
+  margin-right: 8px;
+}
+.content .login_box form .m_form_ul li .text_ts {
+  height: 36px;
+  line-height: 36px;
+}
+.content .login_box form .m_form_ul li.last_login_li {
+  height: 46px;
+  margin-top: 33px;
+}
+.content .login_box form .m_form_ul li.last_login_li .m_form_btn {
+  font-size: 20px;
+  color: #fff;
+  width: 194px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  background-color: #;
+}

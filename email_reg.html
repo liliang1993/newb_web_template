@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>邮箱注册</title>
+  <link rel="stylesheet" href="./css/public.css">
+  <link rel="stylesheet" href="./css/register_page.css">
+</head>
+<body>
+    <div class="reg_con_wrap pr">
+        <div class="reg_box pa auto">
+            <div class="reg_box_hd">
+                  <div class="icon2 icon_logo"></div>
+            </div>
+            <div class="reg_box_title">
+                <h2 class='g0'>注册真实账户</h2>
+            </div>
+            <div class="reg_box_con pa">
+              <div class="m_reg_tab pr ">
+                <div class="reg_nav">
+                  <p class="reg_n reg_1"></p>
+                </div>
+                <div class="reg_prompt">
+                    <em>温馨提示</em>
+                    <p>1.请确保所留所留信息的真实性，我们会按照预留的联系方式告知您的账号的信息，请注意查收</p>
+                    <p>2.我们不会以任何方式泄露您的个人信息，请您放心填写</p>
+                </div>
+                <div class="div_form">     
+                      <table cellpadding="0" cellspacing="0" class="w">
+                        <tr>
+                            <th>邮箱</th>
+                            <td class="m_td_1">
+                                <div class="fix tab_div"><input type="text" class="m_txt" name="tel" id="tel" data-rule-required="true" maxlength="11" /></div>
+                                <span class="tab_ts gc">请输入您的邮箱账号</span>
+                            </td>
+                            <td><span class="tab_sp">！请输入正确的邮箱账号，如abcd@abcd.com</span></td>
+                        </tr>
+                         <tr>
+                            <th>邮箱验证码</th>
+                            <td class="m_td_1">
+                                <div class="fix tab_div"><input type="text" class="m_txt" name="tel" id="tel" data-rule-required="true" maxlength="11" /></div>
+                                <span class="tab_ts c28c528">已发送，请移步邮箱查收</span>
+                            </td>
+                            <td><span class="tab_sp">！验证码不匹配，请重新输入</span></td>
+                        </tr>
+                        <tr>
+                            <th>验证码</th>
+                            <td class="m_td_1">
+                                <div class="fix tab_div">
+                                    <input type="text" class="m_txt txt_code mr5 l" name="imgCode" id="imgCode" data-rule-required="true" maxlength="6" />
+                                    <span class='m_code l'>
+                                      <img class='db' src="/Register/ValidateTelCode" width="123" height="36"/>
+                                    </span>
+                                    <a href="javascript:void(0);" class="m_change_code gc r">换一张</a>
+                                </div>
+                                <span class="tab_ts gc">请输入图形显示的验证码</span>
+                            </td>
+                            <td><span class="tab_sp">！验证码错误，请重新输入</span></td>
+                        </tr>
+                        <tr>
+                            <th>推荐码</th>
+                            <td class="m_td_1">
+                                <div class="fix tab_div">
+                                    <input type="text" class="m_txt  l" name="telCode" id="telCode" maxlength="6" data-rule-required="true" />
+                                </div>
+                                <span class="tab_ts gc">若无，可不填此项</span>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                     </table>
+                     <div class="m_submit_div">
+                          <input type="submit" class="m_frm_btn poi" value="下一页" />
+                     </div>
+                </div>
+              </div>
+              <div class="m_reg_tab pr dn">
+                <div class="reg_nav">
+                  <p class="reg_n reg_2"></p>
+                </div>
+                <div class="reg_prompt">
+                    <em>温馨提示</em>
+                    <p>1.请确保所留所留信息的真实性，我们会按照预留的联系方式告知您的账号的信息，请注意查收</p>
+                    <p>2.我们不会以任何方式泄露您的个人信息，请您放心填写</p>
+                </div>
+                <div class="div_form">     
+                      <table cellpadding="0" cellspacing="0" class="w">
+                        <tr>
+                            <th>真实身份</th>
+                            <td class="m_td_1">
+                                <div class="fix tab_div"><input type="text" class="m_txt" name="tel" id="tel" data-rule-required="true" maxlength="11" /></div>
+                                <span class="tab_ts gc">一旦注册无法修改</span>
+                            </td>
+                            <td><span class="tab_sp">！请输入正确的姓名</span></td>
+                        </tr>
+                         <tr>
+                            <th>身份证号码</th>
+                            <td class="m_td_1">
+                                <div class="fix tab_div"><input type="text" class="m_txt" name="tel" id="tel" data-rule-required="true" maxlength="11" /></div>
+                                <span class="tab_ts c28c528">请输入真实的身份证号码</span>
+                            </td>
+                            <td><span class="tab_sp">！请输入正确的身份证号码</span></td>
+                        </tr>
+                        <tr>
+                            <th>登陆的密码</th>
+                            <td class="m_td_1">
+                                <div class="fix tab_div">
+                                    <input type="text" class="m_txt  l" name="telCode" id="telCode" maxlength="6" data-rule-required="true" />
+                                </div>
+                                <span class="tab_ts gc">请输入6-18位密码，大小写组合</span>
+                            </td>
+                            <td>！密码格式不正确</td>
+                        </tr>
+                        <tr>
+                            <th>确认密码</th>
+                            <td class="m_td_1">
+                                <div class="fix tab_div">
+                                    <input type="text" class="m_txt  l" name="telCode" id="telCode" maxlength="6" data-rule-required="true" />
+                                </div>
+                                <span class="tab_ts gc">请再次输入登录密码</span>
+                            </td>
+                            <td>！前后密码不一致</td>
+                        </tr>
+                     </table>
+                     <div class="m_submit_div">
+                          <input type="submit" class="m_frm_btn poi" value="下一页" />
+                     </div>
+                </div>
+              </div>
+              <div class="m_reg_tab pr dn">
+                <div class="reg_nav">
+                  <p class="reg_n reg_3"></p>
+                </div>
+                <div class="reg_success">
+                    <div class="reg_success_con">
+                       <em>开户成功！</em>
+                        <p>MT4账号已发送到您的手机号，请注意查收！</p>
+                        <p>请注意保管密码，若有任何账号问题，可联系在线客服！</p>
+                        <p>立即下载MT4交易平台，开始投资旅程！</p>
+                    </div>      
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

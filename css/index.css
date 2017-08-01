@@ -80,7 +80,7 @@
   height: 720px;
   overflow: hidden;
   background: #000;
-  min-width: 1100px;
+  min-width: 1200px;
 }
 .banner .banner_bd {
   width: 100%;
@@ -417,6 +417,10 @@
   line-height: 34px;
   height: 34px;
   padding-top: 12px;
+}
+.footer_box {
+  width: 100%;
+  min-width: 1200px;
 }
 .footer_box .footerone {
   height: 203px;

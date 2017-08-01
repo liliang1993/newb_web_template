@@ -1,10 +1,15 @@
-.guid_ul .guid_li + li {
+.content {
+  width: 100%;
+  min-width: 1200px;
+  position: relative;
+}
+.content .guid_ul .guid_li + li {
   margin-top: 20px;
 }
-.guid_ul .guid_li .guid_text {
+.content .guid_ul .guid_li .guid_text {
   line-height: 14px;
   height: 14px;
 }
-.guid_ul .guid_li .guid_img img {
+.content .guid_ul .guid_li .guid_img img {
   display: block;
 }
